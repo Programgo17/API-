@@ -30,7 +30,7 @@ import org.springframework.http.ResponseEntity;
             String fact = json.split("\"fact\":\"")[1].split("\"")[0]; // Get the 'fact' value
             int length = Integer.parseInt(json.split("\"length\":")[1].split("}")[0]); // Get the 'length' value
 
-            // Create a new CatFact object and return it
+            // Creates a new CatFact object and return it
             return new CatFact(fact, length);
         }
     }

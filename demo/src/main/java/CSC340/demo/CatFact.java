@@ -1,7 +1,6 @@
 package CSC340.demo;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class CatFact {
     private String fact;
     private int length;
@@ -29,7 +28,7 @@ public class CatFact {
         this.length = length;
     }
 
-    // toString method (optional)
+
     @Override
     public String toString() {
         return "CatFact{" +
